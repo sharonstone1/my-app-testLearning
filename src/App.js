@@ -34,7 +34,7 @@ function App() {
 }
 
 /// rendering content conditionally
-let tabContent = <p style={{fontSize:20}}> Please select a topic.</p>
+let tabContent = <p style={{fontSize:20}}> Please select a topic.!!</p>
 
 if(selectedTopic){
   tabContent = <div id="tab-content">
