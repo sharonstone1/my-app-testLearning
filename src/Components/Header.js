@@ -1,6 +1,5 @@
 
 import GenRandomInt from "./GenRandomInt";
-import img1 from '../Images/photo1.jpg'
 
 const reactDescriptions= ['Fundamental', 'Crucial', 'Core']
 
@@ -18,7 +17,6 @@ function Header(){
 const description = reactDescriptions[GenRandomInt(2)]
 return(
     <header>
-    <img src={img1} alt='souvenir' />
     <h1>Welcome to My Channel</h1>
     <p>{description} React Concepts</p>
     </header>
